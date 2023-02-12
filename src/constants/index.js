@@ -94,12 +94,12 @@ export const stats = [
   {
     id: "stats-2",
     title: "Sponsors",
-    value: "230+",
+    value: "20+",
   },
   {
     id: "stats-3",
     title: "Prize Pool",
-    value: "$230M+",
+    value: "$2000+",
   },
 ];
 
