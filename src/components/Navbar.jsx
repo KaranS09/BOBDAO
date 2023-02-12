@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { close, logo, menu } from "../assets";
-import img from "../images/bobdao12.png";
+import img from "../images/bobdaofull.png";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -9,8 +9,8 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={img} alt="hoobank" className="w-[120px] h-[70px] m-0" />
+    <nav className="w-full flex py-6 justify-between  navbar">
+      <img src={img} alt="hoobank" className="h-[110px] m-0 mr-0" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

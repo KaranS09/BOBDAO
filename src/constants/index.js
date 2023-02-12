@@ -46,15 +46,13 @@ export const features = [
     id: "feature-2",
     icon: shield,
     title: "Mode and Venue",
-    content:
-      "Join us at the hybrid event where the world is your playground, both online and in person at RV College of Engineering, where innovation meets reality.",
+    content: "Online Hackathon with offline demo day on 18th March ",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Duration",
-    content:
-      "Mark your calendars for 10-15 March and gear up for 5 days of non-stop action at our event, followed by a demo day scheduled on 17 March!",
+    content: " 10th to 15th March 2023 ",
   },
 ];
 

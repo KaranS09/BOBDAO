@@ -64,6 +64,11 @@
   );
 }
 .bg-second {
+  background-color: #fff500;
+  background-image: linear-gradient(0deg, #fff500 32%, #f9f7f2 79%);
+}
+
+.bg-second1 {
   background: #000428; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -75,6 +80,11 @@
     #004e92,
     #000428
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-tertiary {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 46%, #e2ff00 57%);
 }
 .bg-gray-gradient {
   background: linear-gradient(
@@ -154,4 +164,25 @@
 .test {
   display: flex;
   align-items: flex-end;
+}
+
+.apply-button {
+  display: block;
+}
+
+.rounderx {
+  border-radius: 20px;
+}
+
+.bg-img1 {
+  background: url("./images/web3bg.png") no-repeat center center fixed;
+  background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  height: 1000px;
+}
+
+.heights {
+  width: 100px;
 }

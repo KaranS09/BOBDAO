@@ -3,6 +3,7 @@ import { clients } from "../constants";
 import styles from "../style";
 import img1 from "../images/shardeumwe.png";
 import img2 from "../images/filecoinwe.png";
+import img3 from "../images/devfoliowe.png";
 
 const Partners = () => (
   <section class="text-gray-600 body-font">
@@ -57,13 +58,11 @@ const Partners = () => (
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-black-gradient-2 p-6 rounded-lg">
             <img
-              class="h-40 rounded w-full object-cover object-center mb-6"
-              src="https://dummyimage.com/722x402"
+              class="w-100 rounded w-full object-cover object-center mb-6"
+              src={img3}
               alt="content"
             />
-            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-              SUBTITLE
-            </h3>
+
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
               Great Pyramid of Giza
             </h2>
