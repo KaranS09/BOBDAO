@@ -4,7 +4,10 @@ import { footerLinks, socialMedia } from "../constants";
 import img from "../images/bobdao12.png";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+  <section
+    id="footer"
+    className={`${styles.flexCenter} ${styles.paddingY} flex-col`}
+  >
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col ml-90">
         <img

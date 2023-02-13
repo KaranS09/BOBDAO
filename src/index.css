@@ -84,7 +84,7 @@
 
 .bg-tertiary {
   background-color: #ffffff;
-  background-image: linear-gradient(315deg, #ffffff 46%, #e2ff00 57%);
+  background-image: linear-gradient(315deg, #ffffff 46%, #fbfbf9 57%);
 }
 .bg-gray-gradient {
   background: linear-gradient(
@@ -175,14 +175,43 @@
 }
 
 .bg-img1 {
-  background: url("./images/web3bg.png") no-repeat center center fixed;
-  background-size: 100% auto;
+  background: url("./images/final.jpg") no-repeat;
+  background-size: 90% auto;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
   height: 1000px;
 }
 
+@media only screen and (max-width: 480px) {
+  .bg-img1 {
+    height: 500px;
+  }
+  .editinghuh {
+    display: flex;
+  }
+  .smallsize {
+    display: block;
+  }
+  .smallimg {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .bg-img1 {
+    height: 288px;
+  }
+  .editinghuh {
+    display: flex;
+  }
+  .smallsize {
+    display: block;
+  }
+  .smallimg {
+    margin-left: 0;
+  }
+}
 .heights {
   width: 100px;
 }

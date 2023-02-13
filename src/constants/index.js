@@ -21,15 +21,15 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
+    id: "product",
     title: "About",
   },
   {
-    id: "product",
+    id: "partners",
     title: "Partners",
   },
   {
-    id: "clients",
+    id: "footer",
     title: "Contact Us",
   },
 ];
@@ -46,13 +46,13 @@ export const features = [
     id: "feature-2",
     icon: shield,
     title: "Mode and Venue",
-    content: "Online Hackathon with offline demo day on 18th March ",
+    content: "Hybrid Online Hackathon with Onsite demo day on 18th March, 2023",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Duration",
-    content: " 10th to 15th March 2023 ",
+    content: " Intense 5-Day Hackathon Experience from 10th to 15th March 2023",
   },
 ];
 

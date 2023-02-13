@@ -18,17 +18,11 @@ const Billing = () => (
         Learn More About Us <br className="sm:block hidden" />
       </h2>
       <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-        Bobdao is a student-centric community that is dedicated to the
-        advancement of web3 technologies. Built and driven by students, the
-        community is focused on providing a quality learning environment and the
-        best experience for builders in this field. The students who make up
-        Bobdao are passionate about web3 technologies and are determined to
-        share their knowledge and resources to help others develop their skills
-        in this cutting-edge area. The goal of Bobdao is to create a student-led
-        community where members can collaborate and support each other in their
-        journey to becoming web3 experts. By fostering a supportive and
-        inclusive environment for web3 enthusiasts, Bobdao is helping to shape
-        the future of this exciting field.
+        Bobdao is a student-led community dedicated to advancing web3
+        technologies. It provides a quality learning environment and support for
+        students to develop their skills in the field. The goal is to create a
+        supportive and inclusive community for web3 enthusiasts, shaping the
+        future of this exciting field.
       </p>
     </div>
   </section>

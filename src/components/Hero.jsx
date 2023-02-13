@@ -6,23 +6,16 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY} heights`}
+      className={`flex bg-img1 md:flex-row flex-col ${styles.paddingY}`}
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[65px] text-[45px] text-white ss:leading-[100.8px] leading-[75px]">
-            Buidl
-            <span className="text-gradient"> For The Future</span>
+        <div className="flex flex-row justify-between w-full">
+          <h1 className="editinghuh hidden font-poppins text-gradient font-semibold ss:text-[65px] text-[40px] text-white ss:leading-[100.8px] leading-[75px]">
+            Buidl For The Future
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0"></div>
         </div>
-
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full"></h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          brief des here
-        </p>
       </div>
 
       <div
@@ -35,9 +28,9 @@ const Hero = () => {
         {/* gradient end */}
       </div>
 
-      <div className={`ss:hidden ${styles.flexCenter}`}>
+      {/* <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
-      </div>
+      </div> */}
     </section>
   );
 };
