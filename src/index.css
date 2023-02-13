@@ -186,6 +186,7 @@
 @media only screen and (max-width: 480px) {
   .bg-img1 {
     height: 500px;
+    background-size: cover;
   }
   .editinghuh {
     display: flex;
@@ -200,7 +201,13 @@
 
 @media (max-width: 767px) {
   .bg-img1 {
-    height: 288px;
+    background: url("./images/final.jpg") no-repeat;
+    background-position: right 130px;
+    background-size: 90% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    height: 400px;
   }
   .editinghuh {
     display: flex;
@@ -210,6 +217,13 @@
   }
   .smallimg {
     margin-left: 0;
+  }
+  .gedit {
+    margin-top: 0;
+    padding: 0;
+  }
+  .remove {
+    border-radius: 0;
   }
 }
 .heights {

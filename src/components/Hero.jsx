@@ -6,13 +6,13 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex bg-img1 md:flex-row flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between w-full">
-          <h1 className="editinghuh hidden font-poppins text-gradient font-semibold ss:text-[65px] text-[40px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="editinghuh font-poppins text-gradient font-semibold ss:text-[65px] text-[40px] text-white ss:leading-[100.8px] leading-[75px]">
             Buidl For The Future
           </h1>
         </div>
