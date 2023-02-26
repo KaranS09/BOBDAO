@@ -12,10 +12,19 @@ const Hero = () => {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between w-full">
-          <h1 className="editinghuh font-poppins text-gradient font-semibold ss:text-[65px] text-[40px] text-white ss:leading-[100.8px] leading-[75px]">
-            Buidl For The Future
-          </h1>
+          <div className="block">
+            <h1 className="editinghuh font-poppins text-gradient font-semibold ss:text-[90px] text-[40px] text-white ss:leading-[100.8px] leading-[75px]">
+              Buidl For
+            </h1>
+          </div>
         </div>
+        <h1 className="editinghuh font-poppins text-gradient font-semibold ss:text-[90px] text-[40px] text-white ss:leading-[100.8px] leading-[75px]">
+          The
+        </h1>
+        <h1 className="editinghuh font-poppins text-gradient font-semibold ss:text-[90px] text-[40px] text-white ss:leading-[100.8px] leading-[75px]">
+          Future{" "}
+        </h1>
+        <h1 className="editinghuh font-poppins text-gradient font-semibold ss:text-[90px] text-[40px] text-white ss:leading-[100.8px] leading-[75px]"></h1>
       </div>
 
       <div

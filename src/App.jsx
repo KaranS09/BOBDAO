@@ -12,6 +12,9 @@ import {
   Testimonials,
   Hero,
   Partners,
+  Sponsors,
+  Timeline,
+  Timelinefin,
 } from "./components";
 
 const App = () => (
@@ -39,7 +42,9 @@ const App = () => (
           <Stats />
           <Business />
           <Billing />
-          <Partners />
+          <Timelinefin />
+          <Timeline />
+          <Sponsors />
           {/* <CardDeal /> */}
 
           {/* <Testimonials /> */}

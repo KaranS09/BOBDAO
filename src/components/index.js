@@ -9,6 +9,9 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Partners from "./partners";
+import Sponsors from "./sponsors";
+import Timeline from "./TimelineFull";
+import Timelinefin from "./fintimeline";
 
 export {
   Navbar,
@@ -22,4 +25,7 @@ export {
   Testimonials,
   Hero,
   Partners,
+  Sponsors,
+  Timeline,
+  Timelinefin,
 };

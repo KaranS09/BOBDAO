@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-2 justify-start  navbar">
       <div className="flex-start">
-        <img src={img} alt="hoobank" className="h-[110px] m-0 mr-0" />
+        <img src={img} alt="hoobank" className="h-[90px] m-0 mr-0" />
       </div>
 
       <ul className="gedit list-none sm:flex mt-2 hidden justify-end items-center flex-1">
@@ -28,11 +28,11 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="sm:hidden flex flex-1 justify-end items-center text-center center">
+      <div className="jchange sm:hidden flex flex-end flex-1 justify-end items-center text-center center">
         <img
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[28px] h-[28px] object-contain"
+          className="w-[28px] h-[28px] sm-h[80px] sm-w[80px]"
           onClick={() => setToggle(!toggle)}
         />
 

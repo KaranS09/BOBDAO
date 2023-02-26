@@ -87,17 +87,17 @@ export const stats = [
   {
     id: "stats-1",
     title: "Participants",
-    value: "1000+",
+    value: "1500+",
   },
   {
     id: "stats-2",
     title: "Sponsors",
-    value: "20+",
+    value: "5+",
   },
   {
     id: "stats-3",
     title: "Prize Pool",
-    value: "$2000+",
+    value: "$5000+",
   },
 ];
 
@@ -171,22 +171,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/bobdao.hq/?next=%2F",
   },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
+  // {
+  //   id: "social-media-2",
+  //   icon: facebook,
+  //   link: "https://www.facebook.com/",
+  // },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://twitter.com/bobdao5",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/krishna-dvaipayan-2a673a21a/",
   },
 ];
 
